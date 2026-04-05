@@ -14,9 +14,10 @@ function GeneralInfo({data, setData, editStatus}) {
     } else {
         return (
             <>
-                <p>{data.name}</p>
-                <p>{data.email}</p>
-                <p>{data.phone}</p>
+                <h2>GENERAL INFO</h2>
+                <p>Name: {data.name}</p>
+                <p>Email: {data.email}</p>
+                <p>Phone: {data.phone}</p>
             </>
         )
     }

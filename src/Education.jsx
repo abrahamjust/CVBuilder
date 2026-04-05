@@ -14,9 +14,10 @@ function Education({data, setData, editStatus}) {
     } else {
         return (
             <>
-                <p>{data.school}</p>
-                <p>{data.degree}</p>
-                <p>{data.date}</p>
+                <h2>EDUCATION</h2>
+                <p>School: {data.school}</p>
+                <p>Degree: {data.degree}</p>
+                <p>Date: {data.date}</p>
             </>
         )
     }

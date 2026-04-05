@@ -15,10 +15,11 @@ function Experience({data, setData, editStatus}) {
     } else {
         return (
             <>
-                <p>{data.company}</p>
-                <p>{data.role}</p>
-                <p>{data.responsibility}</p>
-                <p>{data.date}</p>
+                <h2>EXPERIENCE</h2>
+                <p>Company: {data.company}</p>
+                <p>Role: {data.role}</p>
+                <p>Responsibility: {data.responsibility}</p>
+                <p>Date: {data.date}</p>
             </>
         )
     }
